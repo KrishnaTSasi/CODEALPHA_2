@@ -2,11 +2,11 @@
 
  Unemployment Analysis in India (COVID-19 Impact)
 
- Task Description
+ ## Task Description
 
 Analyze and visualize the unemployment trends across different regions of India using data from CMIE during the COVID-19 pandemic. Derive insights on patterns, regional disparities and temporal variations using Python and Plotly.
 
- Dataset Features
+## Dataset Features
 
 The dataset includes the following columns:
 
@@ -18,16 +18,21 @@ The dataset includes the following columns:
 * Estimated Labour Participation Rate (%): Percentage of people in the labor force
 * Area: Type of area (Urban or Rural)
 
- Steps and Procedure
+## Tools Used
 
- 1. Data Preprocessing
+* Python (Pandas, Plotly, Seaborn, Matplotlib)
+* Jupyter/Colab for code execution and visualization
+
+## Steps and Procedure
+
+## 1. Data Preprocessing
 
 * Load the CSV data
 * Convert date columns to datetime format
 * Rename columns for consistency
 * Extract month/year for time-series analysis
 
- 2. Exploratory Data Analysis & Visualizations
+## 2. Exploratory Data Analysis & Visualizations
 
  a. Unemployment Rate Over Time by Area
 
@@ -70,28 +75,25 @@ fig = px.sunburst(df,
                   title='Unemployment Rate Breakdown by Region and Area')
 fig.show()
 ```
- Interpretation
+## Interpretation
 
- Seasonal Trend (Monthly Average)
+## Seasonal Trend (Monthly Average)
 
 * April saw the highest unemployment rate (\~23.64%), indicating the peak COVID-19 impact on the labor market.
 * Other months maintained unemployment around 9–10%, showing relative stability post-lockdown.
 
- Regional Insight
+## Regional Insight
 
 * Northern and Eastern regions showed higher average unemployment rates.
 * Southern states had comparatively stable employment metrics.
 
-Urban vs. Rural
+## Urban vs. Rural
 
 Unemployment spiked more in urban areas, suggesting lockdowns had greater effects on cities than rural zones.
 
- Conclusion
+## Conclusion
 
 This analysis reveals a strong COVID-19-induced shock to employment, especially during national lockdowns in early 2020. Regional and seasonal insights help policymakers identify where and when labor market interventions are most critical.
 
- Tools Used
 
-* Python (Pandas, Plotly, Seaborn, Matplotlib)
-* Jupyter/Colab for code execution and visualization
 
